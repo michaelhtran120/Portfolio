@@ -1,0 +1,28 @@
+@import "../../utilities/variables";
+
+$logoWidth: 250px;
+
+.logo {
+    width: $logoWidth;
+}
+
+.navLink {
+    padding: $navLinkPadding;
+    text-decoration: none;
+    color: $primary-color;
+    font-weight: bold;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.navLinkIcon {
+    color: $primary-color;
+    padding: $navLinkPadding;
+}
+
+// .navLinkIcon {
+//     width: 32;
+//     height: 32;
+//     color: $primary-color;
+// }

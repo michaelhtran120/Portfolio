@@ -6,7 +6,7 @@ import { Container, Nav, Navbar, Offcanvas } from "react-bootstrap";
 
 const NavbarComponent = () => {
     return (
-        <Navbar bg='light' expand={false}>
+        <Navbar sticky='top' bg='light' expand={false}>
             <Container fluid>
                 <Navbar.Brand href='#'>
                     <img src={logo} className={styles.logo} alt='logo' />

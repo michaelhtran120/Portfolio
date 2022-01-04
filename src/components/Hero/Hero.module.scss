@@ -1,0 +1,41 @@
+.hero {
+    height: 90vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("../../assets/hero.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    h1 {
+        font-size: 64px;
+    }
+    h2 {
+        font-size: 48px;
+    }
+    @media only screen and (max-width: 992px) {
+        h1 {
+            font-size: 56px;
+        }
+        h2 {
+            font-size: 36px;
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        h1 {
+            font-size: 48px;
+        }
+        h2 {
+            font-size: 32px;
+        }
+    }
+    @media only screen and (max-width: 576px) {
+        h1 {
+            font-size: 32px;
+        }
+        h2 {
+            font-size: 18px;
+        }
+    }
+}

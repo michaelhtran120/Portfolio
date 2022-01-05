@@ -1,20 +1,20 @@
 import React from "react";
 import styles from "./Programming.module.scss";
-import  pdata  from "./data.js";
+import pdata from "./data.js";
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
 
 const Programming = () => {
     return (
         <section>
-            <Container className='p-5 bg-dark' id='work' fluid>
+            <Container className='p-md-5 p-xs-0 pt-5 pb-5 bg-dark' id='work' fluid>
                 <h1 className='text-light text-center'>Programming Experience</h1>
-                <Container className='my-5'>
-                    <Row>
+                <Container fluid className='my-5'>
+                    <Row className='gx-2 gy-2 justify-content-center'>
                         {pdata.map((project) => {
                             return (
-                                <Col xs={12} sm={8} xl={4}>
+                                <Col xs={10} sm={6} xl={4}>
                                     <Card className={styles.card}>
-                                        <Card.Img className={styles.img}variant='top' src={project.image} />
+                                        <Card.Img className={styles.img} variant='top' src={project.image} />
                                         <Card.Body className={styles.cardBody}>
                                             <Card.Title className={styles.cardTitle}>{project.title}</Card.Title>
                                             <Card.Text>{project.description}</Card.Text>
@@ -33,7 +33,6 @@ const Programming = () => {
                                             ) : null}
                                         </Card.Body>
                                         <Card.Footer>
-                                            <p>Toolkit</p>
                                             {project.toolkit.map((tool) => {
                                                 if (project.toolkit.lastIndexOf(tool) === project.toolkit.length - 1) {
                                                     return <span> {tool}</span>;

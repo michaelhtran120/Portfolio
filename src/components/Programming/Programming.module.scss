@@ -1,0 +1,20 @@
+@import "../../utilities/variables.scss";
+
+.btnOutline {
+    margin: 0 1rem;
+    &:hover {
+        color: white;
+    }
+}
+
+.card {
+    height: 500px;
+    .cardTitle {
+        font-size: 28px;
+        color: $primary-color;
+    }
+    .cardBody {
+        border-top: 2px solid $primary-color;
+        margin-top: 10px;
+    }
+}

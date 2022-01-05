@@ -30,18 +30,6 @@ const Programming = () => {
                                 <Card.Footer>Toolkit: React | TypeScript | Bootstrap | Sass | Jest</Card.Footer>
                             </Card>
                         </Col>
-                        <Col xs={12} sm={8} xl={4}>
-                            <Card>
-                                <Card.Img variant='top' src='' />
-                                <Card.Body>
-                                    <Card.Title>Weather Application</Card.Title>
-                                    <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of the card's content.
-                                    </Card.Text>
-                                    <Button variant='primary'>Go somewhere</Button>
-                                </Card.Body>
-                            </Card>
-                        </Col>
                     </Row>
                 </Container>
             </Container>

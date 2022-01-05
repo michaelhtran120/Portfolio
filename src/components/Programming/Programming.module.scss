@@ -1,20 +1,23 @@
 @import "../../utilities/variables.scss";
 
 .btnOutline {
-    margin: 0 1rem;
     &:hover {
         color: white;
     }
 }
 
 .card {
-    height: 500px;
+    height: 525px;
+    .img {
+        width: 100%;
+        max-height: 200px;
+    }
     .cardTitle {
         font-size: 28px;
         color: $primary-color;
+        text-align: center;
     }
     .cardBody {
-        border-top: 2px solid $primary-color;
-        margin-top: 10px;
+        margin-top: 5px;
     }
 }

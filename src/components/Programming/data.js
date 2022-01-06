@@ -8,7 +8,8 @@ const pdata = [
     {
         title: "MaRecipe SPA",
         image: marcipeSPA,
-        description: "Macro Recipe single page application that allows users to granularly control the macro nutrients of the ingredients. Work in progress!",
+        description:
+            "Macro Recipe single page application that allows users to granularly control the macro nutrients of the ingredients. Work in progress!",
         repoUrl: "https://github.com/michaelhtran120/MaRecipe-SPA",
         liveUrl: null,
         toolkit: ["React", "Redux", "Typescript", "Bootstrap", "Sass", "Jest"]
@@ -32,7 +33,7 @@ const pdata = [
         toolkit: ["React", "Firebase"]
     },
     {
-        title: "MaRecipe Landing Page",
+        title: "MaRecipe Static Web Page",
         image: marecipe,
         description: "Portfolio project showcasing the use of Bootstrap in designing a static webpage for MaRecipe application",
         repoUrl: "https://github.com/michaelhtran120/MaRecipe",
@@ -42,7 +43,7 @@ const pdata = [
     {
         title: "Mintbean Junior Dev Hackathon",
         image: hackathon,
-        description: "Built a drawing application using Canvas API with another developer",
+        description: "Developed a drawing application using Canvas API. Collaborated with another developer ",
         repoUrl: "https://github.com/Yehan20/Hackathon-Drawing-App",
         liveUrl: "https://squiggle-drawing-app.netlify.app/",
         toolkit: ["HTML", "CSS", "Sass", "Javascript", "Bootstrap"]

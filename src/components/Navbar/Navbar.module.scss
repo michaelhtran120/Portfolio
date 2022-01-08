@@ -3,18 +3,19 @@
 $logoWidth: 250px;
 
 .logo {
-    width: $logoWidth;
+  width: $logoWidth;
+  margin-left: 15px;
 }
 
 .navLink {
-    padding: $navLinkPadding;
-    text-decoration: none;
-    font-weight: bold;
-    &:hover {
-        text-decoration: underline;
-    }
+  padding: $navLinkPadding;
+  text-decoration: none;
+  font-weight: bold;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .navLinkIcon {
-    padding: $navLinkPadding;
+  padding: $navLinkPadding;
 }

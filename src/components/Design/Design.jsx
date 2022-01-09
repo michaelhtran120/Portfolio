@@ -4,19 +4,21 @@ import AbodeModal from "./AbodeModal/AbodeModal.jsx";
 import dData from "./data.js";
 
 const Design = () => {
-  // const [isPibuOpen, setIsPibuOpen] = useState(false);
+//   const [isPibuOpen, setIsPibuOpen] = useState(false);
   const [isAbodeOpen, setIsAbodeOpen] = useState(false);
 
   const btnHandler = (project) => {
-    if (project.title === "Pibu") {
-      return () => {
-        setIsPibuOpen(true);
-      };
-    } else if (project.title === "Abode") {
+    if (project.title === "Abode") {
       return () => {
         setIsAbodeOpen(true);
-      };
-    }
+      } 
+    } 
+    // else if (project.title === "Pibu") {
+    //     return () => {
+    //       setIsPibuOpen(true);
+    //     };
+    //   }
+    // }
   };
 
   return (

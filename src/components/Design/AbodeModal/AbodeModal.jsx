@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import abodeCover from "../../../assets/Abode/abodeCover.jpg";
 import abodeSect1 from "../../../assets/Abode/AbodeSect1.jpg";
 import abodeSect2 from "../../../assets/Abode/AbodeSect2.jpg";

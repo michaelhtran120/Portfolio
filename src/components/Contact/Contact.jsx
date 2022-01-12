@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { Container, Form, Button } from "react-bootstrap";
 import { send } from "emailjs-com";
+import styles from "./Contact.module.scss";
 
 const Contact = () => {
   const [toSend, setToSend] = useState({
@@ -35,8 +36,8 @@ const Contact = () => {
 
   return (
     <Container className="p-5">
-      <h1>Contact Me!</h1>
-      <Form onSubmit={onSubmit}>
+      <h1 className="text-center">Contact Me!</h1>
+      <Form onSubmit={onSubmit} className={styles.contact__form}>
         <Form.Group>
           <Form.Label>Your Name</Form.Label>
           <Form.Control
@@ -64,7 +65,7 @@ const Contact = () => {
           <Form.Label>Your Email</Form.Label>
           <Form.Control type="email" name="replyTo" placeholder="Your email address" value={toSend.replyTo} onChange={handleChange} required={true} />
         </Form.Group>
-        <Button className="mt-2" variant="primary" type="submit">
+        <Button className={`${styles.contact__form__btn} mt-3`} type="submit">
           Submit
         </Button>
       </Form>

@@ -1,0 +1,23 @@
+@import "../../utilities/variables";
+
+.contact__form {
+  max-width: 700px;
+  margin: 0 auto;
+  border: 3px solid $primary-color;
+  border-radius: 20px;
+  padding: 25px;
+  label {
+    font-size: 18px;
+  }
+  input,
+  textarea {
+    border-color: $primary-color;
+  }
+  &__btn {
+    color: white !important;
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0px 15px 20px $primary-shadow;
+    }
+  }
+}

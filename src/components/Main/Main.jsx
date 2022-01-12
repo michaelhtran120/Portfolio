@@ -10,9 +10,13 @@ const Main = () => {
     <div>
       <NavbarComponent />
       <Hero />
-      <Programming />
+      <section id="work">
+        <Programming />
+      </section>
       <Design />
-      <Contact />
+      <section id="contact">
+        <Contact />
+      </section>
     </div>
   );
 };

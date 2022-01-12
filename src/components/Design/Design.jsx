@@ -4,15 +4,15 @@ import AbodeModal from "./AbodeModal/AbodeModal.jsx";
 import dData from "./data.js";
 
 const Design = () => {
-//   const [isPibuOpen, setIsPibuOpen] = useState(false);
+  //   const [isPibuOpen, setIsPibuOpen] = useState(false);
   const [isAbodeOpen, setIsAbodeOpen] = useState(false);
 
   const btnHandler = (project) => {
     if (project.title === "Abode") {
       return () => {
         setIsAbodeOpen(true);
-      } 
-    } 
+      };
+    }
     // else if (project.title === "Pibu") {
     //     return () => {
     //       setIsPibuOpen(true);
@@ -27,9 +27,9 @@ const Design = () => {
         <h1 className="text-center">Design Experience</h1>
         <Container className="my-5">
           <Row className="justify-content-center gy-2">
-            {dData.map((project) => {
+            {dData.map((project, index) => {
               return (
-                <Col xs={10} md={6} lg={4}>
+                <Col key={index} xs={10} md={6} lg={4}>
                   <Card>
                     <Card.Img variant="top" src={project.image} />
                     <Card.Body>

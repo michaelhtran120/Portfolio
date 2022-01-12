@@ -7,12 +7,12 @@ const Programming = () => {
   return (
     <section>
       <Container className="p-md-5 p-xs-0 pt-5 pb-5 bg-dark" id="work" fluid>
-        <h1 className="text-light text-center">Programming Projects</h1>
+        <h1 className="text-light text-center">Programming Work</h1>
         <Container fluid className="my-5">
           <Row className="gx-2 gx-lg-3 gy-lg-4 gy-2 justify-content-center justify-content-lg-start">
             {pdata.map((project) => {
               return (
-                <Col xs={10} sm={6} lg={4} xl={3}>
+                <Col key={project.id} xs={10} sm={6} lg={4} xl={3}>
                   <Card className={styles.card}>
                     <Card.Img className={styles.img} variant="top" src={project.image} />
                     <Card.Body className={styles.cardBody}>
@@ -28,11 +28,11 @@ const Programming = () => {
                       ) : null}
                     </Card.Body>
                     <Card.Footer>
-                      {project.toolkit.map((tool) => {
+                      {project.toolkit.map((tool, index) => {
                         if (project.toolkit.lastIndexOf(tool) === project.toolkit.length - 1) {
-                          return <span> {tool}</span>;
+                          return <span key={index}> {tool}</span>;
                         } else {
-                          return <span> {tool} -</span>;
+                          return <span key={index}> {tool} -</span>;
                         }
                       })}
                     </Card.Footer>

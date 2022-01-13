@@ -1,7 +1,9 @@
 import React from "react";
-import styles from "./Programming.module.scss";
 import pdata from "./data.js";
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+import styles from "./Programming.module.scss";
 
 const Programming = () => {
   return (
@@ -13,7 +15,7 @@ const Programming = () => {
             return (
               <Col key={project.id} xs={10} sm={6} lg={4} xl={3}>
                 <Card className={styles.card}>
-                  <Card.Img className={styles.img} variant="top" src={project.image} />
+                  <LazyLoadImage className={styles.img} src={project.image} alt={`${project.title} screen shot`} effect="blur" />
                   <Card.Body className={styles.cardBody}>
                     <Card.Title className={styles.cardTitle}>{project.title}</Card.Title>
                     <Card.Text>{project.description}</Card.Text>

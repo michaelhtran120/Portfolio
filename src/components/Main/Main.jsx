@@ -1,8 +1,11 @@
 import React, { Suspense } from "react";
 import NavbarComponent from "../Navbar/NavbarComponent";
-const Hero = React.lazy(() => import("../Hero/Hero"));
+const Hero = React.lazy(() => {
+  return Promise.all([import("../Hero/Hero"), new Promise((resolve) => setTimeout(resolve, 1000))]).then(([moduleExports]) => moduleExports);
+});
 const Programming = React.lazy(() => import("../Programming/Programming"));
 const Design = React.lazy(() => import("../Design/Design"));
+const About = React.lazy(() => import("../About/About"));
 const Contact = React.lazy(() => import("../Contact/Contact"));
 
 const Main = () => {
@@ -14,7 +17,9 @@ const Main = () => {
         <Programming />
       </section>
       <Design />
-      <section id="about">About Me</section>
+
+      <About />
+
       <section id="contact">
         <Contact />
       </section>

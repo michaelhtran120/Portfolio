@@ -9,12 +9,12 @@ const About = () => {
   return (
     <section id="about" className="bg-dark text-light">
       <Container className="py-5">
-        <Row>
-          <Col md={6}>
+        <Row className="align-items-center justify-content-center">
+          <Col md={5}>
             <LazyLoadImage src={ProfilePic} alt="Michael Profile" effect="blur" width="100%" className={styles.profilePic} />
           </Col>
-          <Col className="d-flex flex-column justify-content-center pt-5 pt-sm-0">
-            <h1 className="text-center pb-5">Who am I?</h1>
+          <Col md={7} className="d-flex flex-column justify-content-center pt-5 pt-sm-0">
+            <h1 className="text-center pt-5 pt-md-0 pb-5">Who am I?</h1>
             <p>
               A creative professional with a strong analytical prowess and problem-solving capacity is interested in growing his skills and knowledge
               through collaboration with both internal and external stakeholders to effectively plan, create, develop, and launch products.

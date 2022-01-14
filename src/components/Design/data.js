@@ -10,7 +10,7 @@ const dData = [
   {
     title: "Abode",
     image: abode,
-    description: "Design a desktop/mobile application for users to sell/rent homes."
+    description: "Design a responsive application for users to sell/rent homes."
   }
 ];
 

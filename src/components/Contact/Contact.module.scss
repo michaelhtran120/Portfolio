@@ -1,6 +1,11 @@
 @import "../../utilities/variables";
 
-.contact__form {
+.contactTitle {
+  color: $primary-color;
+  text-align: center;
+}
+
+.contactForm {
   max-width: 700px;
   margin: 0 auto;
   border: 3px solid $primary-color;
@@ -13,7 +18,7 @@
   textarea {
     border-color: $primary-color;
   }
-  &__btn {
+  .contactFormBtn {
     color: white !important;
     &:hover {
       transform: translateY(-2px);

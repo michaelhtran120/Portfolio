@@ -36,8 +36,8 @@ const Contact = () => {
 
   return (
     <Container className="p-5">
-      <h1 className="text-center">Contact Me!</h1>
-      <Form onSubmit={onSubmit} className={styles.contact__form}>
+      <h1 className={styles.contactTitle}>Contact Me!</h1>
+      <Form onSubmit={onSubmit} className={styles.contactForm}>
         <Form.Group>
           <Form.Label>Your Name</Form.Label>
           <Form.Control
@@ -65,7 +65,7 @@ const Contact = () => {
           <Form.Label>Your Email</Form.Label>
           <Form.Control type="email" name="replyTo" placeholder="Your email address" value={toSend.replyTo} onChange={handleChange} required={true} />
         </Form.Group>
-        <Button className={`${styles.contact__form__btn} mt-3`} type="submit">
+        <Button className={`${styles.contactFormBtn} mt-3`} type="submit">
           Submit
         </Button>
       </Form>

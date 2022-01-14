@@ -1,3 +1,10 @@
+@import "../../utilities/variables";
+
 .profilePic {
   border-radius: 25px;
+}
+
+.aboutTitle {
+    text-align: center;
+    color:$primary-color;
 }

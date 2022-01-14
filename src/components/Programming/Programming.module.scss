@@ -1,5 +1,10 @@
 @import "../../utilities/variables.scss";
 
+.programmingTitle {
+  color: $primary-color;
+  text-align: center;
+}
+
 .btnOutline {
   &:hover {
     color: white;

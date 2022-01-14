@@ -8,7 +8,7 @@ import styles from "./Programming.module.scss";
 const Programming = () => {
   return (
     <Container className="p-md-5 p-0 pt-5 pb-5 bg-dark" id="work" fluid>
-      <h1 className="text-light text-center">Programming Work</h1>
+      <h1 className={styles.programmingTitle}>Programming Work</h1>
       <Row className="gx-2 gx-lg-3 gy-lg-4 gy-2 my-5 mx-0 justify-content-center justify-content-lg-start">
         {pdata.map((project) => {
           return (

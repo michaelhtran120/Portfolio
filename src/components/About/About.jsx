@@ -14,7 +14,7 @@ const About = () => {
             <LazyLoadImage src={ProfilePic} alt="Michael Profile" effect="blur" width="100%" className={styles.profilePic} />
           </Col>
           <Col md={7} className="d-flex flex-column justify-content-center pt-5 pt-sm-0">
-            <h1 className="text-center pt-5 pt-md-0 pb-5">Who am I?</h1>
+            <h1 className={`${styles.aboutTitle} pt-5 pt-md-0 pb-5`}>Who am I?</h1>
             <p>
               A creative professional with a strong analytical prowess and problem-solving capacity is interested in growing his skills and knowledge
               through collaboration with both internal and external stakeholders to effectively plan, create, develop, and launch products.

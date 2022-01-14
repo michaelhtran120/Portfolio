@@ -3,6 +3,7 @@ import dData from "./data.js";
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
+import styles from "./Design.module.scss";
 import AbodeModal from "./AbodeModal/AbodeModal.jsx";
 
 const Design = () => {
@@ -26,7 +27,7 @@ const Design = () => {
   return (
     <section>
       <Container className="p-md-5 p-xs-0 pt-5 pb-5 bg-light" id="work" fluid>
-        <h1 className="text-center">Design Experience</h1>
+        <h1 className={styles.designTitle}>Design Work</h1>
         <Container className="my-5">
           <Row className="justify-content-center gy-2">
             {dData.map((project, index) => {

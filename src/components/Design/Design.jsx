@@ -4,7 +4,8 @@ import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import styles from "./Design.module.scss";
-import AbodeModal from "./AbodeModal/AbodeModal.jsx";
+// import AbodeModal from "./AbodeModal/AbodeModal.jsx";
+const AbodeModal = React.lazy(() => import("./AbodeModal/AbodeModal"));
 
 const Design = () => {
   //   const [isPibuOpen, setIsPibuOpen] = useState(false);

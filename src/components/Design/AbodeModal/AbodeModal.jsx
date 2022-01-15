@@ -18,6 +18,8 @@ import AnimationTwo from "../../../assets/Abode/AnimationTwo.gif";
 
 import styles from "./AbodeModal.module.scss";
 import { Col, Container, Image, Modal, Row } from "react-bootstrap";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const AbodeModal = ({ showModal, toggleModal }) => {
   return (
@@ -26,9 +28,9 @@ const AbodeModal = ({ showModal, toggleModal }) => {
         <Modal.Title>Abode - UX / UI Design</Modal.Title>
       </Modal.Header>
       <Modal.Body className="p-0">
-        <Image src={abodeCover} style={{ width: "100%" }} fluid />
-        <Image src={abodeSect1} style={{ width: "100%" }} fluid />
-        <Image src={abodeSect2} style={{ width: "100%" }} fluid />
+        <LazyLoadImage src={abodeCover} alt='cover' effect="blur" width="100%" />
+        <LazyLoadImage src={abodeSect1} alt='coverTwo' effect="blur" width="100%" />
+        <LazyLoadImage src={abodeSect2} alt='summary' effect="blur" width="100%" />
         <Container className="py-5 px-5">
           <Row className="justify-content-center">
             <Col>
@@ -58,9 +60,9 @@ const AbodeModal = ({ showModal, toggleModal }) => {
             <Col md={6}></Col>
           </Row>
         </Container>
-        <Image src={abodePersonaOne} style={{ width: "100%" }} fluid />
-        <Image src={abodePersonaTwo} style={{ width: "100%" }} fluid />
-        <Container>
+        <LazyLoadImage src={abodePersonaOne} alt='Persona One Details' effect="blur" width="100%" />
+        <LazyLoadImage src={abodePersonaTwo} alt='Persona Two Details' effect="blur" width="100%" />
+        <Container className='px-5'>
           <Row className="mt-5">
             <h1>Ideate & Iterate</h1>
             <p className="py-3">
@@ -69,17 +71,17 @@ const AbodeModal = ({ showModal, toggleModal }) => {
               breakpoints for tablet and desktop.
             </p>
           </Row>
-          <Image src={abodeUserflowOne} style={{ width: "100%" }} fluid />
-          <Image src={abodeUserflowTwo} style={{ width: "100%" }} fluid />
-          <Image src={abodeUserflowThree} style={{ width: "100%" }} fluid />
+          <LazyLoadImage src={abodeUserflowOne} alt='Userflow One' effect="blur" width="100%" />
+          <LazyLoadImage src={abodeUserflowTwo} alt='Userflow Two' effect="blur" width="100%" />
+          <LazyLoadImage src={abodeUserflowThree} alt='Userflow Three' effect="blur" width="100%" />
           <hr />
           <Row className="mt-5">
             <h1 className="py-3">Rapid Prototyping - Wireframes</h1>
             <Col lg={6}>
-              <Image src={LowToHighOne} style={{ width: "100%" }} fluid />
+              <LazyLoadImage src={LowToHighOne} alt='Low to high fidelity drawings of search results feature' effect="blur" width="100%" />
             </Col>
             <Col lg={6}>
-              <Image src={LowToHighTwo} style={{ width: "100%" }} fluid />
+              <LazyLoadImage src={LowToHighTwo} alt='Low to high fidelity drawings of property listing feature' effect="blur" width="100%" />
             </Col>
           </Row>
           <hr />
@@ -90,13 +92,13 @@ const AbodeModal = ({ showModal, toggleModal }) => {
               points will utilize a modal window to display property details when a user clicks on a property.
             </p>
             <Col xs={12} xl={12}>
-              <Image src={BreakPointLowFidelity} style={{ width: "100%" }} fluid />
+              <LazyLoadImage src={BreakPointLowFidelity} alt='low fidelity drawings for tablet and desktop break points' effect="blur" width="100%" />
             </Col>
           </Row>
         </Container>
-        <Image src={MockUp} style={{ width: "100%" }} fluid />
+        <LazyLoadImage src={MockUp} alt='high fidelity mock ups' effect="blur" width="100%" />
         <Container>
-          <Row className="mt-5">
+          <Row className="px-5 mt-5">
             <h1>Refining The Design</h1>
             <p className="py-3">
               Through user testing, peer review and mentor guidance, I utilize the feedback to further refine my design into a final prototype. Below
@@ -106,7 +108,7 @@ const AbodeModal = ({ showModal, toggleModal }) => {
               <Row>
                 <Col lg={6}>
                   <p className="text-center lead">Home Screen</p>
-                  <Image src={TestRefineHome} style={{ width: "100%" }} fluid />
+                  <LazyLoadImage src={TestRefineHome} alt='Comparing home page wireframes after user testing' effect="blur" width="100%" />
                   <p className="p-3">
                     The home screen design changes shifts the user’s attention towards the search function and the recommended property listings. By
                     having a minimal design, the user’s focus gravitates to the sections that contrast from the background.
@@ -114,7 +116,7 @@ const AbodeModal = ({ showModal, toggleModal }) => {
                 </Col>
                 <Col lg={6}>
                   <p className="text-center lead">Modal</p>
-                  <Image src={TestRefineModal} style={{ width: "100%" }} fluid />
+                  <LazyLoadImage src={TestRefineModal} alt='Comparing modal page wireframes after user testing' effect="blur" width="100%" />
                   <p className="p-3">
                     The design changes on the above screens shifted towards design trends of having a full modal window rather than an overlay and
                     having a full width button at the bottom. Another optimization was changing the opacity of the the selected section. This created
@@ -125,24 +127,24 @@ const AbodeModal = ({ showModal, toggleModal }) => {
             </Col>
           </Row>
           <hr />
-          <Row className="my-3 justify-content-around">
-            <h1 className="py-3">Animations & Final Prototype</h1>
+          <Row className="my-3 px-5 justify-content-around">
+            <h1 className="py-5">Animations & Final Prototype</h1>
             <Col xs={8} md={4} className="py-xs-3 py-sm-0">
-              <Image src={AnimationOne} style={{ width: "100%" }} />
+              <LazyLoadImage src={AnimationOne} alt='animation GIF showing user sign up flow' effect="blur" width="100%" />
             </Col>
             <Col xs={8} md={4}>
-              <Image src={AnimationTwo} style={{ width: "100%" }} />
+              <LazyLoadImage src={AnimationTwo} alt='Animation GIF showing map feature and property profile flow' effect="blur" width="100%" />
             </Col>
           </Row>
           <Row className="justify-content-center align-items-center ">
             <Col xs={12} md={6}>
-              <h1 className="py-5 p-lg-5 text-center">
+              <h3 className="py-5 p-lg-5 text-center">
                 <a href="https://projects.invisionapp.com/share/5NW9UDRJ3QP#/screens">Link To Interactive Prototype</a>
-              </h1>
+              </h3>
             </Col>
           </Row>
           <hr />
-          <Row className={styles.retrospective}>
+          <Row className={`${styles.retrospective} p-5`}>
             <h1 className="py-3">Retrospective</h1>
             <h3>What Went Well</h3>
             <ul>

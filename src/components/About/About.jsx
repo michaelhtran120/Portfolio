@@ -20,7 +20,7 @@ const About = () => {
               through collaboration with both internal and external stakeholders to effectively plan, create, develop, and launch products.
             </p>
             <p>Currently enrolled in Nucamp full stack boot camp and working as a front end developer intern with Biscuits N Groovy.</p>
-            <p>Some interests of mine is gaming, music, fitness and dance. Always open to learning and exploring new things!</p>
+            <p>Some interests of mine are gaming (video/board), music, fitness and dance. Always open to learning and exploring new things!</p>
             <p>
               Visit my{" "}
               <a href="https://github.com/michaelhtran120" target="_blank" rel="noreferrer">

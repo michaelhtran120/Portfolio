@@ -1,3 +1,22 @@
 .PibuModal {
   background-color: #FAF5ED;
 }
+
+.outlineBtn {
+  &:hover {
+    color: white;
+  }
+}
+
+.painPointCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.personaCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}

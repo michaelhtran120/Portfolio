@@ -5,9 +5,10 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import styles from "./Design.module.scss";
 const AbodeModal = React.lazy(() => import("./AbodeModal/AbodeModal"));
+const PibuModal = React.lazy(() => import('./PibuModal/PibuModal'))
 
 const Design = () => {
-  //   const [isPibuOpen, setIsPibuOpen] = useState(false);
+  const [isPibuOpen, setIsPibuOpen] = useState(false);
   const [isAbodeOpen, setIsAbodeOpen] = useState(false);
 
   const btnHandler = (project) => {
@@ -16,13 +17,12 @@ const Design = () => {
         setIsAbodeOpen(true);
       };
     }
-    // else if (project.title === "Pibu") {
-    //     return () => {
-    //       setIsPibuOpen(true);
-    //     };
-    //   }
-    // }
-  };
+    else if (project.title === "Pibu") {
+      return () => {
+        setIsPibuOpen(true);
+      };
+    }
+  }
 
   return (
     <section>
@@ -49,6 +49,7 @@ const Design = () => {
           </Row>
         </Container>
         <AbodeModal showModal={isAbodeOpen} toggleModal={() => setIsAbodeOpen(false)} />
+        <PibuModal showModal={isPibuOpen} toggleModal={() => setIsAbodeOpen(false)} />
       </Container>
     </section>
   );

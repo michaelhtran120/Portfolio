@@ -1,4 +1,6 @@
 import React from "react";
+
+// Image  imports
 import abodeCover from "../../../assets/Abode/abodeCover.jpg";
 import abodeSect1 from "../../../assets/Abode/AbodeSect1.jpg";
 import abodeSect2 from "../../../assets/Abode/AbodeSect2.jpg";
@@ -16,10 +18,13 @@ import TestRefineHome from "../../../assets/Abode/TestRefineHome.jpg";
 import AnimationOne from "../../../assets/Abode/AnimationOne.gif";
 import AnimationTwo from "../../../assets/Abode/AnimationTwo.gif";
 
-import styles from "./AbodeModal.module.scss";
-import { Col, Container, Image, Modal, Row } from "react-bootstrap";
+// Library Imports
+import { Col, Container, Modal, Row } from "react-bootstrap";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
+
+// Sass import
+import styles from "./AbodeModal.module.scss";
 
 const AbodeModal = ({ showModal, toggleModal }) => {
   return (

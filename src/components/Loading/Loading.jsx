@@ -4,8 +4,8 @@ import styles from "./Loading.module.scss";
 const Loading = () => {
   return (
     <>
-      <div class={styles.loadContainer}>
-        <div class={styles.ldsGrid}>
+      <div className={styles.loadContainer}>
+        <div className={styles.ldsGrid}>
           <div></div>
           <div></div>
           <div></div>

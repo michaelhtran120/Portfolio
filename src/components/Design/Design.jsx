@@ -49,7 +49,7 @@ const Design = () => {
           </Row>
         </Container>
         <AbodeModal showModal={isAbodeOpen} toggleModal={() => setIsAbodeOpen(false)} />
-        <PibuModal showModal={isPibuOpen} toggleModal={() => setIsAbodeOpen(false)} />
+        <PibuModal showModal={isPibuOpen} toggleModal={() => setIsPibuOpen(false)} />
       </Container>
     </section>
   );

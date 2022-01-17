@@ -16,9 +16,6 @@ const NavbarComponent = () => {
                         Work
                     </a>
                     <a href='#about' className={styles.navLink}>
-                        About
-                    </a>
-                    <a href='#contact' className={styles.navLink}>
                         Contact
                     </a>
                     <a href='https://github.com/michaelhtran120' target='_blank' rel='noopener noreferrer' className={`${styles.navLinkIcon}`}>

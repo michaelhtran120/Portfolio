@@ -50,6 +50,10 @@ const Contact = () => {
           />
         </Form.Group>
         <Form.Group className="mt-2">
+          <Form.Label>Your Email</Form.Label>
+          <Form.Control type="email" name="replyTo" placeholder="Your email address" value={toSend.replyTo} onChange={handleChange} required={true} />
+        </Form.Group>
+        <Form.Group className="mt-2">
           <Form.Label>Message</Form.Label>
           <Form.Control
             as="textarea"
@@ -60,10 +64,6 @@ const Contact = () => {
             onChange={handleChange}
             required={true}
           />
-        </Form.Group>
-        <Form.Group className="mt-2">
-          <Form.Label>Your Email</Form.Label>
-          <Form.Control type="email" name="replyTo" placeholder="Your email address" value={toSend.replyTo} onChange={handleChange} required={true} />
         </Form.Group>
         <Button className={`${styles.contactFormBtn} mt-3`} type="submit">
           Submit

@@ -38,7 +38,7 @@ const Design = () => {
                     <Card.Body>
                       <Card.Title>{project.title}</Card.Title>
                       <Card.Text>{project.description}</Card.Text>
-                      <Button variant="outline-primary" onClick={btnHandler(project)}>
+                      <Button variant="outline-primary" onClick={btnHandler(project)} className={styles.outlineBtn}>
                         Project Overview
                       </Button>
                     </Card.Body>

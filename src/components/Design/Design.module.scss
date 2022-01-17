@@ -4,3 +4,8 @@
     color: $primary-color;
     text-align: center;
 }
+.outlineBtn {
+    &:hover {
+      color: white;
+    }
+  }

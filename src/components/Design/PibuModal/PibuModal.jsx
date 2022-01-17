@@ -256,7 +256,7 @@ const PibuModal = ({ showModal, toggleModal }) => {
 
         {/* Section 4 - Final Design*/}
         <Container className='p-5'>
-          <hr/>
+          <hr />
           <h1 className='py-5'>Step 4: Final Design, Responsive Web & Support</h1>
           <Row className='py-3'>
             <Col lg={6}>
@@ -274,6 +274,71 @@ const PibuModal = ({ showModal, toggleModal }) => {
             <Col lg={6}>
               <iframe className={styles.mobilePrototype} title='mobile prototype' src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FOBkk6p9ihILZU03YB6oOzn%2FPibu-Mobile-Prototype%3Fnode-id%3D1481%253A3150%26scaling%3Dscale-down%26page-id%3D543%253A510%26starting-point-node-id%3D1481%253A3150" allowfullscreen></iframe></Col>
           </Row>
+          <hr />
+          <Row className='py-3'>
+            <Col>
+              <h3>Responsive Web / Desktop Wireframes</h3>
+              <p className='lh-lg'>
+                Our team also created high fidelity desktop wireframes to accompany the mobile wireframes. This was to show our client and the developer the client would hire how the design layout would adjust accordingly from mobile to desktop or when a browser would be resized.
+              </p>
+              <Button variant='outline-primary' size='lg' href='https://www.figma.com/proto/bDmtioB0mv8MXEhV4HjlKc/Pibu-Desktop-Proto?kind=&node-id=1441%3A3130&scaling=scale-down' target='_blank' className={styles.outlineBtn}>Desktop Prototype</Button>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <h3>Post Deliverable Support</h3>
+              <p className='lh-lg'>
+                After our team compiled the final deliverables (developer handoff) to our client, we remain vigilant in supporting our client with any design needs. We continued to provide any small design changes requested per the client’s request until they completed their launch of their website
+              </p>
+              <Button variant='outline-primary' size='lg' href='www.officialpibu.com' className={styles.outlineBtn}>Link To Live Site</Button>
+              <p className='lh-lg pt-3'>
+                After official publication, our team did a top down analysis of the website. Our team noted any usability issues we encountered and compiled a power point for our client suggesting updates and/or changes to further optimize their site.
+              </p>
+            </Col>
+          </Row>
+        </Container>
+
+        {/* section 5 - retrospect */}
+        <Container className='p-5'>
+          <hr />
+          <h1>Retrospective</h1>
+          <h3>What Went Well</h3>
+          <ul className={styles.retroList}>
+            <li>
+              Diverse group of survey and interview participants (ethnicity, location, gender etc), which gave us variety of responses and help reduce bias.
+            </li>
+            <li>
+              We were able to help the client develop their branding and provided consultation in regards to their business endeavors throughout the project.
+            </li>
+            <li>
+              Identifying each designers strength and letting each take lead in respective sections of the project allowed us to provide final deliverables on time.
+            </li>
+          </ul>
+          <h3>What Didn't Go Well</h3>
+          <ul className={styles.retroList}>
+            <li>
+              Client was on a strict and short timeline and we were unable to do extensive testing of interactive prototypes and other testing of the design.
+            </li>
+            <li>
+              Client was unclear of their exact design needs and required more assistance than what was initially stated.
+            </li>
+            <li>
+              Inability to work with developer directly and had to communicate through our client to explain certain design.
+            </li>
+          </ul>
+          <h3>What Can Be Improved</h3>
+          <ul className={styles.retroList}>
+            <li>
+              Better establishment of project parameters in the early stages could have improved our timeline in regards to design and testing.
+            </li>
+            <li>
+              Work with client on finding a developer that would best fit their needs and can help reduce communication friction.
+            </li>
+            <li>
+              Setting collaboration time with the entire team (creative time). This is to separate business time from design time.
+            </li>
+          </ul>
+
         </Container>
       </Modal.Body>
     </Modal>

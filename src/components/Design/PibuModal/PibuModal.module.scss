@@ -3,6 +3,7 @@
 }
 
 .outlineBtn {
+  background-color: white;
   &:hover {
     color: white;
   }
@@ -34,3 +35,8 @@
   }
 }
 
+.retroList {
+  li {
+    line-height: 1.7rem;
+  };
+}

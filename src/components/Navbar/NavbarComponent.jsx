@@ -47,23 +47,3 @@ const NavbarComponent = () => {
 };
 
 export default NavbarComponent;
-
-// <Nav className='d-none d-md-flex flex-row justify-content-end flex-grow-1 align-items-center'>
-{/* <a href='#work' className={styles.navLink}>
-    Work
-</a>
-<a href='#about' className={styles.navLink}>
-    Contact
-</a> */}
-{/* <a href='https://github.com/michaelhtran120' target='_blank' rel='noopener noreferrer' className={`${styles.navLinkIcon}`}>
-    <Icon.Github size={28} />
-</a> */}
-{/* <a
-    href='https://www.linkedin.com/in/michaelhtran120/'
-    target='_blank'
-    rel='noopener noreferrer'
-    className={`${styles.navLinkIcon}`}
->
-    <Icon.Linkedin size={28} />
-</a> */}
-// </Nav>

@@ -17,10 +17,10 @@ const pdata = [
   },
   {
     id: 2,
-    title: "Weather w/ MUI",
+    title: "Weather App",
     image: weatherMui,
     description:
-      "Weather App created with React and Material UI. \n This was a fun little side project to practice using React and learn Material UI.",
+      "Weather App created with React and Material UI. \n This was a fun little side project to practice using React and learn Material UI and Chart.js.",
     repoUrl: "https://github.com/michaelhtran120/MUI-React-Weather-App",
     liveUrl: "https://michaelhtran120.github.io/MUI-React-Weather-App/",
     toolkit: ["React", "Material UI", "Chart.js"]
@@ -48,7 +48,7 @@ const pdata = [
     id: 5,
     title: "Mintbean Junior Dev Hackathon",
     image: hackathon,
-    description: "Developed a drawing application using Canvas API. Collaborated with another developer ",
+    description: "Collaborated with another developer in developing a drawing application utilizing the Canvas API. ",
     repoUrl: "https://github.com/Yehan20/Hackathon-Drawing-App",
     liveUrl: "https://squiggle-drawing-app.netlify.app/",
     toolkit: ["HTML", "CSS", "Sass", "Javascript", "Bootstrap"]

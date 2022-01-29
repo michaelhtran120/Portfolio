@@ -10,20 +10,21 @@ const About = () => {
     <section id="about" className="bg-dark text-light">
       <Container className="py-5">
         <Row className="align-items-center justify-content-around">
-          <Col md={5}>
+          <Col sm={8} md={8} lg={5}>
             <LazyLoadImage src={ProfilePic} alt="Michael Profile" effect="blur" width="100%" className={styles.profilePic} />
           </Col>
-          <Col md={6} className="d-flex flex-column justify-content-center pt-5 pt-sm-0">
-            <h1 className={`${styles.aboutTitle} pt-5 pt-md-0 pb-5`}>Who am I?</h1>
-            <p className='lh-lg'>
+          <Col lg={6} className="d-flex flex-column justify-content-center pt-5 pt-sm-0">
+            <h1 className={`${styles.aboutTitle} pt-5 pt-lg-0 pb-5`}>Who am I?</h1>
+            <p className="lh-lg">
               A creative professional with a strong analytical prowess and problem-solving capacity is interested in growing his skills and knowledge
               through collaboration with both internal and external stakeholders to effectively plan, create, develop, and launch products.
             </p>
-            <p className='lh-lg'>
+            <p className="lh-lg">
               Currently enrolled in Nucamp full stack boot camp and working as a front end developer intern with Biscuits N Groovy.
             </p>
-            <p className='lh-lg'>
-              Some interests of mine are gaming (video/board), music, fitness, photography, cooking, and dance. Always open to learning and exploring new things!
+            <p className="lh-lg">
+              Some interests of mine are gaming (video/board), music, fitness, photography, cooking, and dance. Always open to learning and exploring
+              new things!
             </p>
             <p>
               Visit my{" "}
@@ -32,8 +33,9 @@ const About = () => {
               </a>{" "}
               to see all my projects!
             </p>
-            <p className='lh-lg'>
-              If you would like to ask me questions about my work or just get to know me, please contact me using the form below. I will get back to you as soon as possible and we can set up a remote coffee meet up!
+            <p className="lh-lg">
+              If you would like to ask me questions about my work or just get to know me, please contact me using the form below. I will get back to
+              you as soon as possible and we can set up a remote coffee meet up!
             </p>
           </Col>
         </Row>

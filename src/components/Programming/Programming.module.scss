@@ -7,8 +7,10 @@
 }
 
 .btnOutline {
+  transition: transform 0.5s ease-in-out;
   &:hover {
     color: white;
+    transform: scale(1.05);
   }
 }
 

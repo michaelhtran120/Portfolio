@@ -4,8 +4,17 @@
   padding-top: 50px;
 }
 
+.btnOutline {
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+}
+
 .btnOutline:hover {
   color: white;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .card {

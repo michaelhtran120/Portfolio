@@ -7,7 +7,7 @@ import styles from "./About.module.scss";
 
 const About = () => {
   return (
-    <section id="about" className="bg-dark text-light">
+    <section className={`bg-dark text-light ${styles["about"]}`}>
       <Container className="py-5">
         <Row className="align-items-center justify-content-around">
           <Col sm={8} md={8} lg={5}>

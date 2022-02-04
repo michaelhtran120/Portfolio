@@ -1,0 +1,32 @@
+.contactTitle {
+  color: #90bccb;
+  text-align: center;
+}
+
+.contactForm {
+  max-width: 700px;
+  margin: 0 auto;
+  border: 3px solid #90bccb;
+  border-radius: 20px;
+  padding: 25px;
+}
+
+.contactForm label {
+  font-size: 18px;
+}
+
+.contactForm input,
+.contactForm textarea {
+  border-color: #90bccb;
+}
+
+.contactForm .contactFormBtn {
+  color: white !important;
+}
+
+.contactForm .contactFormBtn:hover {
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+  -webkit-box-shadow: 0px 15px 20px #90bccb9a;
+          box-shadow: 0px 15px 20px #90bccb9a;
+}

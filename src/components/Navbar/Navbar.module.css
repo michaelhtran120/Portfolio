@@ -1,0 +1,20 @@
+.logo {
+  width: 250px;
+  margin-left: 15px;
+}
+
+.navLink {
+  padding: 0.5rem 1rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navLink:hover {
+  text-decoration: underline;
+}
+
+.navLinkIcon {
+  padding: 0.5rem 1rem;
+}

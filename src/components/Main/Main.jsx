@@ -16,12 +16,10 @@ const Main = () => {
       <Hero />
       <section id="work">
         <Programming />
+        <Design />
       </section>
-      <Design />
-
-      <About />
-
-      <section id="contact">
+      <section id="about">
+        <About />
         <Contact />
       </section>
     </Suspense>

@@ -1,0 +1,29 @@
+.programmingTitle {
+  color: #90bccb;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.btnOutline:hover {
+  color: white;
+}
+
+.card {
+  height: 500px;
+  margin: 0 auto;
+}
+
+.card .img {
+  width: 100%;
+  max-height: 200px;
+}
+
+.card .cardTitle {
+  font-size: 28px;
+  color: #90bccb;
+  text-align: center;
+}
+
+.card .cardBody {
+  margin-top: 5px;
+}

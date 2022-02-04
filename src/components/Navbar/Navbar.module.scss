@@ -9,6 +9,8 @@ $logoWidth: 250px;
 
 .navLink {
   padding: $navLinkPadding;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
   text-decoration: none;
   font-weight: bold;
   &:hover {

@@ -1,0 +1,60 @@
+.PibuModal {
+  background-color: #FAF5ED;
+}
+
+.outlineBtn {
+  background-color: white;
+}
+
+.outlineBtn:hover {
+  color: white;
+}
+
+.painPointCol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.personaCol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.boldText {
+  font-weight: bolder;
+}
+
+.mobilePrototype {
+  width: 100%;
+  border: 1px solid black;
+  height: 650px;
+}
+
+@media screen and (max-width: 400px) {
+  .mobilePrototype {
+    height: 550px;
+  }
+}
+
+.retroList li {
+  line-height: 1.7rem;
+}

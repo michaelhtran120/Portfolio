@@ -1,0 +1,16 @@
+footer {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+footer span {
+  color: white;
+}
+
+footer nav {
+  padding: 20px;
+}
+
+footer a {
+  margin: 0 10px;
+}

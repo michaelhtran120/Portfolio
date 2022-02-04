@@ -10,10 +10,10 @@ const pdata = [
     title: "MaRecipe SPA",
     image: marcipeSPA,
     description:
-      "Macro Recipe single page application that allows users to granularly control the macro nutrients of the ingredients. Work in progress!",
+      "Macro Recipe single page application that allows users to granularly control the macro nutrients of the ingredients. Work in progress! If you would like a demo, please contact me!",
     repoUrl: "https://github.com/michaelhtran120/MaRecipe-SPA",
     liveUrl: null,
-    toolkit: ["React", "Redux", "Typescript", "Bootstrap", "Sass", "Jest"]
+    toolkit: ["React", "Redux", "Typescript", "Bootstrap", "Sass", "Jest"],
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const pdata = [
       "Weather App created with React and Material UI. \n This was a fun little side project to practice using React and learn Material UI and Chart.js.",
     repoUrl: "https://github.com/michaelhtran120/MUI-React-Weather-App",
     liveUrl: "https://michaelhtran120.github.io/MUI-React-Weather-App/",
-    toolkit: ["React", "Material UI", "Chart.js"]
+    toolkit: ["React", "Material UI", "Chart.js"],
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const pdata = [
       "Netflix replica created using React and Firebase. \n The project requirement was to replicate one of my favorite websites as close as possible.",
     repoUrl: "https://github.com/michaelhtran120/netflix-replica",
     liveUrl: "https://michaelhtran120.github.io/netflix-replica/",
-    toolkit: ["React", "Firebase"]
+    toolkit: ["React", "Firebase"],
   },
   {
     id: 4,
@@ -42,7 +42,7 @@ const pdata = [
     description: "Portfolio project showcasing the use of Bootstrap in designing a static webpage for MaRecipe application",
     repoUrl: "https://github.com/michaelhtran120/MaRecipe",
     liveUrl: "https://michaelhtran120.github.io/MaRecipe/",
-    toolkit: ["HTML", "CSS", "Sass", "Javascript", "jQuery", "Bootstrap"]
+    toolkit: ["HTML", "CSS", "Sass", "Javascript", "jQuery", "Bootstrap"],
   },
   {
     id: 5,
@@ -51,8 +51,8 @@ const pdata = [
     description: "Collaborated with another developer in developing a drawing application utilizing the Canvas API. ",
     repoUrl: "https://github.com/Yehan20/Hackathon-Drawing-App",
     liveUrl: "https://squiggle-drawing-app.netlify.app/",
-    toolkit: ["HTML", "CSS", "Sass", "Javascript", "Bootstrap"]
-  }
+    toolkit: ["HTML", "CSS", "Sass", "Javascript", "Bootstrap"],
+  },
 ];
 
 export default pdata;

@@ -1,15 +1,18 @@
 import React from "react";
-import logo from "../../assets/Logo.jpg";
-import styles from "./Navbar.module.scss";
+// import logo from "../../assets/Logo.jpg";
+import logoMini from "../../assets/logo-mini.svg";
 import * as Icon from "react-bootstrap-icons";
 import { Container, Nav, Navbar } from "react-bootstrap";
 
+// Styles import
+import styles from "./Navbar.module.css";
+
 const NavbarComponent = () => {
   return (
-    <Navbar sticky="top" bg="light" expand="md">
+    <Navbar sticky="top" bg="light" expand="sm" className={styles["scroll-nav"]}>
       <Container fluid>
         <Navbar.Brand href="#">
-          <img src={logo} className={styles.logo} alt="logo" />
+          <img src={logoMini} className={styles.logo} alt="logo" />
         </Navbar.Brand>
         <Navbar.Toggle className="d-md-none" aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

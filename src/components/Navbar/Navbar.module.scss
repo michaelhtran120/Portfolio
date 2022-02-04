@@ -1,9 +1,10 @@
 @import "../../utilities/variables";
 
 $logoWidth: 250px;
+$logoMiniWidth: 50px;
 
 .logo {
-  width: $logoWidth;
+  width: $logoMiniWidth;
   margin-left: 15px;
 }
 

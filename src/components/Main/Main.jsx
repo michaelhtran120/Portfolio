@@ -1,6 +1,10 @@
 import React, { Suspense } from "react";
+
+// Component imports
+import Footer from "../Footer/Footer";
 import Loading from "../Loading/Loading";
 import NavbarComponent from "../Navbar/NavbarComponent";
+
 const Hero = React.lazy(() => {
   return Promise.all([import("../Hero/Hero"), new Promise((resolve) => setTimeout(resolve, 2000))]).then(([moduleExports]) => moduleExports);
 });
@@ -22,6 +26,7 @@ const Main = () => {
         <About />
         <Contact />
       </section>
+      <Footer />
     </Suspense>
   );
 };

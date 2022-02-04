@@ -3,7 +3,7 @@ import pdata from "./data.js";
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
-import styles from "./Programming.module.scss";
+import styles from "./Programming.module.css";
 
 const Programming = () => {
   return (

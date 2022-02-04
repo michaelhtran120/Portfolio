@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import ProfilePic from "../../assets/profile.JPEG";
 import "react-lazy-load-image-component/src/effects/blur.css";
-import styles from "./About.module.scss";
+import styles from "./About.module.css";
 
 const About = () => {
   return (

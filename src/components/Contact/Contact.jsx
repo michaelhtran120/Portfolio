@@ -2,13 +2,13 @@
 import React, { useState } from "react";
 import { Container, Form, Button } from "react-bootstrap";
 import { send } from "emailjs-com";
-import styles from "./Contact.module.scss";
+import styles from "./Contact.module.css";
 
 const Contact = () => {
   const [toSend, setToSend] = useState({
     fromName: "",
     message: "",
-    replyTo: ""
+    replyTo: "",
   });
 
   const onSubmit = (e) => {
@@ -19,7 +19,7 @@ const Contact = () => {
           setToSend({
             fromName: "",
             message: "",
-            replyTo: ""
+            replyTo: "",
           });
           alert("Your message has been successfully sent! \n I will get back to you ASAP!");
         }

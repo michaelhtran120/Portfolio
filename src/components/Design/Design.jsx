@@ -3,9 +3,9 @@ import dData from "./data.js";
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
-import styles from "./Design.module.scss";
+import styles from "./Design.module.css";
 const AbodeModal = React.lazy(() => import("./AbodeModal/AbodeModal"));
-const PibuModal = React.lazy(() => import('./PibuModal/PibuModal'))
+const PibuModal = React.lazy(() => import("./PibuModal/PibuModal"));
 
 const Design = () => {
   const [isPibuOpen, setIsPibuOpen] = useState(false);
@@ -16,13 +16,12 @@ const Design = () => {
       return () => {
         setIsAbodeOpen(true);
       };
-    }
-    else if (project.title === "Pibu") {
+    } else if (project.title === "Pibu") {
       return () => {
         setIsPibuOpen(true);
       };
     }
-  }
+  };
 
   return (
     <section>

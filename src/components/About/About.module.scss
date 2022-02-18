@@ -13,3 +13,30 @@
   color: $primary-color;
   padding-top: 100px;
 }
+
+.skillTitle {
+  color: $primary-color;
+  text-align: center;
+}
+
+.skillRow {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.skillCard {
+  height: 100%;
+  background-color: black;
+  color: $primary-color;
+  .cardHeader {
+    text-align: center;
+    border-bottom: 1px solid $primary-color !important;
+  }
+  .CardBody {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.skillCard:last-child {
+  margin-top: 10px;
+}

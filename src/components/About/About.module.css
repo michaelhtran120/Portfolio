@@ -11,3 +11,36 @@
   color: #90bccb;
   padding-top: 100px;
 }
+
+.skillTitle {
+  color: #90bccb;
+  text-align: center;
+}
+
+.skillRow {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.skillCard {
+  height: 100%;
+  background-color: black;
+  color: #90bccb;
+}
+
+.skillCard .cardHeader {
+  text-align: center;
+  border-bottom: 1px solid #90bccb !important;
+}
+
+.skillCard .CardBody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.skillCard:last-child {
+  margin-top: 10px;
+}

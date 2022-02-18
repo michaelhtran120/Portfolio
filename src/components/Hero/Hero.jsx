@@ -15,7 +15,7 @@ const Hero = () => {
           <h1 className="text-light">Hello! I'm Michael Hoan Tran</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInRight" animateOut="fadeOutLeft" duration={1.5} delay={500} className="text-light">
-          <h2>A Front End Developer</h2>
+          <h2>A Front End Developer / UX Designer</h2>
           {/* <h2>UX Designer</h2> */}
         </ScrollAnimation>
         <a href="#work" className="scrolldown">&#8671;</a>

@@ -9,7 +9,7 @@
 .btnOutline {
   transition: transform 0.5s ease-in-out;
   &:hover {
-    color: white;
+    color: black;
     transform: scale(1.05);
   }
 }
@@ -17,16 +17,25 @@
 .card {
   height: 500px;
   margin: 0 auto;
-  .img {
-    width: 100%;
-    max-height: 200px;
+  background-color: black;
+  color: $primary-color;
+  .cardHeader {
+    .img {
+      width: 100%;
+      object-fit: cover;
+    }
   }
+
   .cardTitle {
     font-size: 28px;
     color: $primary-color;
     text-align: center;
   }
   .cardBody {
+    position: relative;
     margin-top: 5px;
+  }
+  .cardFooter {
+    border-top: 1px solid $primary-color;
   }
 }

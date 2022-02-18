@@ -18,6 +18,54 @@
   background-repeat: no-repeat;
 }
 
+.hero a {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 6rem;
+  width: 65px;
+  height: 65px;
+  margin: 0 auto;
+  background-color: #90bccb;
+  color: black;
+  border-radius: 100%;
+  border: 3px solid #90bccb;
+  font-size: 2.5rem;
+}
+
+.hero a:hover {
+  -webkit-animation-name: scrolldown;
+          animation-name: scrolldown;
+  -webkit-animation-duration: 0.65s;
+          animation-duration: 0.65s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+@-webkit-keyframes scrolldown {
+  from {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  to {
+    -webkit-transform: translateY(-8px);
+            transform: translateY(-8px);
+  }
+}
+
+@keyframes scrolldown {
+  from {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  to {
+    -webkit-transform: translateY(-8px);
+            transform: translateY(-8px);
+  }
+}
+
 .hero .overlay {
   position: absolute;
   top: 0;
@@ -55,9 +103,15 @@
 
 @media only screen and (max-width: 576px) {
   .hero h1 {
-    font-size: 24px;
+    font-size: 28px;
   }
   .hero h2 {
-    font-size: 18px;
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .hero h1 {
+    font-size: 24px;
   }
 }

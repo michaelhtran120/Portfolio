@@ -1,3 +1,5 @@
+@import "../../utilities/variables";
+
 .hero {
   position: relative;
   height: 100vh;
@@ -9,6 +11,35 @@
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  a {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 6rem;
+    width: 65px;
+    height: 65px;
+    margin: 0 auto;
+    background-color: $primary-color;
+    color: black;
+    border-radius: 100%;
+    border: 3px solid $primary-color;
+    font-size: 2.5rem;
+    &:hover {
+      animation-name: scrolldown;
+      animation-duration: 0.65s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+
+    @keyframes scrolldown {
+      from {
+        transform: translateY(0px);
+      }
+      to {
+        transform: translateY(-8px);
+      }
+    }
+  }
   .overlay {
     position: absolute;
     top: 0;
@@ -41,10 +72,19 @@
   }
   @media only screen and (max-width: 576px) {
     h1 {
-      font-size: 24px;
+      font-size: 28px;
     }
+    h2:first-child {
+      // margin-top: 5rem;
+    }
+
     h2 {
-      font-size: 18px;
+      font-size: 22px;
+    }
+  }
+  @media only screen and (max-width: 390px) {
+    h1 {
+      font-size: 24px;
     }
   }
 }

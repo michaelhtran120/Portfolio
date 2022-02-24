@@ -32,7 +32,7 @@ const About = () => {
                 products.
               </p>
               <p className="lh-lg">
-                Currently enrolled in Nucamp full stack boot camp and working as a front end developer intern with Biscuits N Groovy.
+                Completed Nucamp full stack boot camp in February and currently working as a front end developer intern with Biscuits N Groovy.
               </p>
               <p className="lh-lg">
                 Some interests of mine are gaming (video/board), music, fitness, photography, cooking, and dance. Always open to learning and

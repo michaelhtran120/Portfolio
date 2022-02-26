@@ -3,8 +3,19 @@ import weatherMui from "../../assets/weather-project.png";
 import netflixReplica from "../../assets/netflix-replica.png";
 import marecipe from "../../assets/marecipe.png";
 import hackathon from "../../assets/hackathon.png";
+import merntask from "../../assets/mern-task.png";
 
 const pdata = [
+  {
+    id: 0,
+    title: "MERN Task Manager",
+    image: merntask,
+    description:
+      "Full stack application focused on praciticing my back-end knowledge of Express and MongoDB. Also focused on practicing utilizing Redux state management, but this time using Redux Toolkit library",
+    repoUrl: "https://github.com/michaelhtran120/MERN-Task",
+    liveUrl: "https://mern-stack-task-manager.herokuapp.com/",
+    toolkit: ["React", "Redux Toolkit", "Node.js", "Expres", "MongoDB"],
+  },
   {
     id: 1,
     title: "MaRecipe SPA",

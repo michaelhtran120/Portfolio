@@ -4,20 +4,11 @@ import netflixReplica from "../../assets/netflix-replica.png";
 import marecipe from "../../assets/marecipe.png";
 import hackathon from "../../assets/hackathon.png";
 import merntask from "../../assets/mern-task.png";
+import portfolio from "../../assets/portfolio.png";
 
 const pdata = [
   {
     id: 0,
-    title: "MERN Task Manager",
-    image: merntask,
-    description:
-      "Full stack application focused on praciticing my back-end knowledge of Express and MongoDB. Also focused on practicing utilizing Redux state management, but this time using Redux Toolkit library",
-    repoUrl: "https://github.com/michaelhtran120/MERN-Task",
-    liveUrl: "https://mern-stack-task-manager.herokuapp.com/",
-    toolkit: ["React", "Redux Toolkit", "Node.js", "Expres", "MongoDB"],
-  },
-  {
-    id: 1,
     title: "MaRecipe SPA",
     image: marcipeSPA,
     description:
@@ -27,7 +18,27 @@ const pdata = [
     toolkit: ["React", "Redux", "Typescript", "Bootstrap", "Sass", "Jest"],
   },
   {
+    id: 1,
+    title: "MERN Task Manager",
+    image: merntask,
+    description:
+      "Full stack application focused on praciticing my back-end knowledge of Express and MongoDB. Also focused on practicing utilizing Redux state management, but this time using Redux Toolkit library",
+    repoUrl: "https://github.com/michaelhtran120/MERN-Task",
+    liveUrl: "https://mern-stack-task-manager.herokuapp.com/",
+    toolkit: ["React", "Redux Toolkit", "Node.js", "Expres", "MongoDB"],
+  },
+  {
     id: 2,
+    title: "Portfolio",
+    image: portfolio,
+    description:
+      "The current webpage you are on is my portfolio. Quick build as previous website was expiring. Will update time to time to test new UI features.",
+    repoUrl: "https://github.com/michaelhtran120/Portfolio",
+    liveUrl: null,
+    toolkit: ["React", "Bootstrap", "Sass"],
+  },
+  {
+    id: 3,
     title: "Weather App",
     image: weatherMui,
     description:
@@ -37,17 +48,7 @@ const pdata = [
     toolkit: ["React", "Material UI", "Chart.js"],
   },
   {
-    id: 3,
-    title: "Netflix Replica",
-    image: netflixReplica,
-    description:
-      "Netflix replica created using React and Firebase. \n The project requirement was to replicate one of my favorite websites as close as possible.",
-    repoUrl: "https://github.com/michaelhtran120/netflix-replica",
-    liveUrl: "https://michaelhtran120.github.io/netflix-replica/",
-    toolkit: ["React", "Firebase"],
-  },
-  {
-    id: 4,
+    id: 908,
     title: "MaRecipe Static Web Page",
     image: marecipe,
     description: "Portfolio project showcasing the use of Bootstrap in designing a static webpage for MaRecipe application",
@@ -56,13 +57,23 @@ const pdata = [
     toolkit: ["HTML", "CSS", "Sass", "Javascript", "jQuery", "Bootstrap"],
   },
   {
-    id: 5,
+    id: 812,
     title: "Mintbean Junior Dev Hackathon",
     image: hackathon,
     description: "Collaborated with another developer in developing a drawing application utilizing the Canvas API. ",
     repoUrl: "https://github.com/Yehan20/Hackathon-Drawing-App",
     liveUrl: "https://squiggle-drawing-app.netlify.app/",
     toolkit: ["HTML", "CSS", "Sass", "Javascript", "Bootstrap"],
+  },
+  {
+    id: 999,
+    title: "Netflix Replica",
+    image: netflixReplica,
+    description:
+      "Netflix replica created using React and Firebase. \n The project requirement was to replicate one of my favorite websites as close as possible.",
+    repoUrl: "https://github.com/michaelhtran120/netflix-replica",
+    liveUrl: "https://michaelhtran120.github.io/netflix-replica/",
+    toolkit: ["React", "Firebase"],
   },
 ];
 

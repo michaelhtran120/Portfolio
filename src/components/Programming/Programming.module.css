@@ -18,7 +18,7 @@
 }
 
 .card {
-  height: 500px;
+  min-height: 550px;
   margin: 0 auto;
   background-color: black;
   color: #90bccb;
@@ -43,4 +43,5 @@
 
 .card .cardFooter {
   border-top: 1px solid #90bccb;
+  min-height: 75px;
 }

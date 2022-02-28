@@ -20,7 +20,7 @@ const Programming = () => {
       <Row className="gx-2 gx-lg-3 gy-lg-4 gy-2 my-5 mx-3 justify-content-center justify-content-lg-start">
         {pdata.map((project) => {
           return (
-            <Col key={project.id} xs={10} sm={6} lg={4} xl={3}>
+            <Col key={project.id} xs={10} sm={6} lg={4}>
               <ScrollAnimation animateIn="fadeInUpBig" duration={1} delay={500}>
                 <Card className={styles.card}>
                   <Card.Header className={styles.cardHeader}>

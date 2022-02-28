@@ -25,7 +25,7 @@ const pdata = [
       "Full stack application focused on praciticing my back-end knowledge of Express and MongoDB. Also focused on practicing utilizing Redux state management, but this time using Redux Toolkit library",
     repoUrl: "https://github.com/michaelhtran120/MERN-Task",
     liveUrl: "https://mern-stack-task-manager.herokuapp.com/",
-    toolkit: ["React", "Redux Toolkit", "Node.js", "Expres", "MongoDB"],
+    toolkit: ["React", "Redux Toolkit", "Node.js", "Express", "MongoDB"],
   },
   {
     id: 2,

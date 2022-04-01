@@ -19,7 +19,7 @@ const About = () => {
           <Col xs={11} sm={8} md={8} lg={5}>
             <ScrollAnimation animateIn='fadeInLeft' animateOnce={true} duration={1}>
               <LazyLoadImage
-                src={ProfilePic}
+                src='https://res.cloudinary.com/michaelhtran120/image/upload/v1648834862/profile_vj31uy.jpg'
                 alt='Michael Profile'
                 effect='blur'
                 width='100%'

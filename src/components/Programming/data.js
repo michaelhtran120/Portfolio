@@ -1,17 +1,8 @@
-import marcipeSPA from '../../assets/marecipe-spa.png';
-import weatherMui from '../../assets/weather-project.png';
-import netflixReplica from '../../assets/netflix-replica.png';
-import marecipe from '../../assets/marecipe.png';
-import hackathon from '../../assets/hackathon.png';
-import merntask from '../../assets/mern-task.png';
-import portfolio from '../../assets/portfolio.png';
-import musicplayer from '../../assets/musicplayer.png';
-
 const pdata = [
   {
     id: 123,
     title: "M's Music Player",
-    image: musicplayer,
+    image: 'https://res.cloudinary.com/michaelhtran120/image/upload/v1648834861/musicplayer_c5jgco.png',
     description:
       'Audio player built with NextJS/React. Focus on building an audio player and working with HTML audio tag. ',
     repoUrl: 'https://github.com/michaelhtran120/music-player',
@@ -21,7 +12,7 @@ const pdata = [
   {
     id: 0,
     title: 'MaRecipe SPA',
-    image: marcipeSPA,
+    image: 'https://res.cloudinary.com/michaelhtran120/image/upload/v1648834858/marecipe-spa_n5ucwg.png',
     description:
       'Macro Recipe single page application that allows users to granularly control the macro nutrients of the ingredients. Work in progress! If you would like a demo, please contact me!',
     repoUrl: 'https://github.com/michaelhtran120/MaRecipe-SPA',
@@ -31,7 +22,7 @@ const pdata = [
   {
     id: 1,
     title: 'MERN Task Manager',
-    image: merntask,
+    image: 'https://res.cloudinary.com/michaelhtran120/image/upload/v1648834856/mern-task_up4rrz.png',
     description:
       'Full stack application focused on praciticing my back-end knowledge of Express and MongoDB. Also focused on practicing utilizing Redux state management, but this time using Redux Toolkit library',
     repoUrl: 'https://github.com/michaelhtran120/MERN-Task',
@@ -41,7 +32,7 @@ const pdata = [
   {
     id: 2,
     title: 'Portfolio',
-    image: portfolio,
+    image: 'https://res.cloudinary.com/michaelhtran120/image/upload/v1648834859/hero_qoj7ej.jpg',
     description:
       'The current webpage you are on is my portfolio. Quick build as previous website was expiring. Will update time to time to test new UI features.',
     repoUrl: 'https://github.com/michaelhtran120/Portfolio',
@@ -51,7 +42,7 @@ const pdata = [
   {
     id: 3,
     title: 'Weather App',
-    image: weatherMui,
+    image: 'https://res.cloudinary.com/michaelhtran120/image/upload/v1648834860/weather-project_yhxe5o.png',
     description:
       'Weather App created with React and Material UI. \n This was a fun little side project to practice using React and learn Material UI and Chart.js.',
     repoUrl: 'https://github.com/michaelhtran120/MUI-React-Weather-App',
@@ -61,7 +52,7 @@ const pdata = [
   {
     id: 908,
     title: 'MaRecipe Static Web Page',
-    image: marecipe,
+    image: 'https://res.cloudinary.com/michaelhtran120/image/upload/v1648834860/marecipe_nwpsq9.png',
     description:
       'Portfolio project showcasing the use of Bootstrap in designing a static webpage for MaRecipe application',
     repoUrl: 'https://github.com/michaelhtran120/MaRecipe',
@@ -71,7 +62,7 @@ const pdata = [
   {
     id: 812,
     title: 'Mintbean Junior Dev Hackathon',
-    image: hackathon,
+    image: 'https://res.cloudinary.com/michaelhtran120/image/upload/v1648834861/hackathon_xuuas9.png',
     description:
       'Collaborated with another developer in developing a drawing application utilizing the Canvas API. ',
     repoUrl: 'https://github.com/Yehan20/Hackathon-Drawing-App',
@@ -81,7 +72,7 @@ const pdata = [
   {
     id: 999,
     title: 'Netflix Replica',
-    image: netflixReplica,
+    image: 'https://res.cloudinary.com/michaelhtran120/image/upload/v1648834862/netflix-replica_oqvu6m.png',
     description:
       'Netflix replica created using React and Firebase. \n The project requirement was to replicate one of my favorite websites as close as possible.',
     repoUrl: 'https://github.com/michaelhtran120/netflix-replica',

@@ -6,7 +6,7 @@ import * as Icon from "react-bootstrap-icons";
 const Footer = () => {
   const date = new Date().getFullYear();
   return (
-    <footer class={styles["footer"]}>
+    <footer className={styles["footer"]}>
       <div className="p-5 pb-2">
         <span>&#169; {date} - Michael Hoan Tran</span>
       </div>

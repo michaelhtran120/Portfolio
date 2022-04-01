@@ -15,7 +15,7 @@ const Programming = () => {
   return (
     <Container className='p-md-5 p-0 pt-5 pb-5 bg-dark' id='work' fluid>
       <ScrollAnimation animateIn='fadeInDown' duration={1.5}>
-        <h1 className={styles.programmingTitle} animateOnce={true}>Programming Work</h1>
+        <h1 className={styles.programmingTitle}>Programming Work</h1>
       </ScrollAnimation>
       <Row className='gx-2 gx-lg-3 gy-lg-4 gy-2 my-5 mx-3 justify-content-center justify-content-lg-start'>
         {pdata.map((project) => {

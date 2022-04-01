@@ -5,9 +5,6 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import ScrollAnimation from 'react-animate-on-scroll';
 
-// Asset imports
-import ProfilePic from '../../assets/profile.JPEG';
-
 // Style imports
 import styles from './About.module.css';
 

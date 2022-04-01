@@ -34,7 +34,7 @@ const Design = () => {
   return (
     <section>
       <Container className="p-md-5 p-xs-0 pt-5 pb-5 bg-light" id="work" fluid>
-        <ScrollAnimation animateIn="fadeInDown" animateOut="fadeOutDown" duration={1.5}>
+        <ScrollAnimation animateIn="fadeInDown" animateOut="fadeOutDown" duration={1.5} animateOnce={true}>
           <h1 className={styles.designTitle}>Design Work</h1>
         </ScrollAnimation>
         <Container className="my-5">
@@ -42,7 +42,7 @@ const Design = () => {
             {dData.map((project, index) => {
               return (
                 <Col key={index} xs={10} md={6} lg={4}>
-                  <ScrollAnimation animateIn={project.animateIn} duration={1} delay={1000}>
+                  <ScrollAnimation animateIn={project.animateIn} duration={1} delay={1000} animateOnce={true}>
                     <Card>
                       <LazyLoadImage src={project.image} alt={`${project.title} cover`} effect="blur" width="100%" />
                       <Card.Body>

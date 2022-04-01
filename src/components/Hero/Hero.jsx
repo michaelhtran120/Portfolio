@@ -6,6 +6,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 // CSS import
 import styles from "./Hero.module.css";
 
+
 const Hero = () => {
   return (
     <>
